@@ -1,0 +1,45 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Lexend', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3366cc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #265b9e;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.disclaimer a {
+  color: #3366cc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.disclaimer a:hover {
+  color: #265b9e;
+}
